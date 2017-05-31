@@ -4,6 +4,11 @@ body {
 	background-size: cover;
 	background-position: center;
 	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+html {
+	height: 100%;
 }
 
 #home-content {
@@ -12,11 +17,12 @@ body {
 }
 
 h1 {
-	color: white;
-	font-size: 40px;
+	font-size: 5em;
 	font-weight: 700;
 }
 
-h3 {
-	color: white;
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
